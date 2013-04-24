@@ -1,4 +1,21 @@
+require 'fullstay'
+
 Fullstay::Application.routes.draw do
+  resources :reviews
+
+
+  resources :payments
+
+
+  resources :rooms
+
+
+  resources :hotels
+
+
+  # Mount the Grape API
+  mount Fullstay::API => '/'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  method: MyString
+  amount_paid: 1.5
+  amount_due: 1.5
+
+two:
+  method: MyString
+  amount_paid: 1.5
+  amount_due: 1.5
