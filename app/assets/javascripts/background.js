@@ -19,7 +19,7 @@ function changeBackground() {
   if (current_image >= images[current_set].length) {
     current_image = 0;
   }
-  bg_image.src = "images/" + images[current_set][current_image];
+  bg_image.src = "/assets/images/" + images[current_set][current_image];
   if (current_set != 0) {
     current_image++;
     clearInterval(timer);
