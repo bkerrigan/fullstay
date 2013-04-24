@@ -1,4 +1,4 @@
-require 'fullstay'
+require 'Fullstay'
 
 Fullstay::Application.routes.draw do
   resources :reviews
