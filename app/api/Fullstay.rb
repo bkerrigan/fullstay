@@ -1,6 +1,7 @@
 module Fullstay
   class API < Grape::API
     prefix 'api'
+    format :json
 
     helpers do
       def current_user
